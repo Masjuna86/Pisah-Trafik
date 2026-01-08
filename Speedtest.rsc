@@ -3,6 +3,16 @@
 #####################################
 /ip firewall address-list
 rem [find list="Speedtest"]
+# Wifiman 
+add list=Speedtest address=104.244.0.0/15
+add list=Speedtest address=54.184.0.0/15
+add list=Speedtest address=54.185.249.0/24
+add list=Speedtest address=18.155.68.0/24
+add list=Speedtest address=31.13.95.0/24
+add list=Speedtest address=142.251.175.0/24
+add list=Speedtest address=44.244.0.0/16
+
+# umum 
 add list=Speedtest address=100.42.144.20
 add list=Speedtest address=100.42.32.231
 add list=Speedtest address=101.203.168.115
@@ -8317,6 +8327,7 @@ add list=Speedtest address=99.24.18.9
 add list=Speedtest address=99.24.18.93
 add address=yougetsignal.com list=Speedtest
 add address=xmyip.com list=Speedtest
+add address=wifiman.com list=Speedtest
 add address=www.yougetsignal.com list=Speedtest
 add address=expressvpn.com list=Speedtest
 add address=www.expressvpn.com list=Speedtest
